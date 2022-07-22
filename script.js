@@ -95,29 +95,43 @@
 
 // console.log(ride1.calculation());
 
-class Movie {
+// class Movie {
 
-constructor(title,studio,rating){
+// constructor(title,studio,rating){
   
-    rating = 'PG'+rating;
-    this.title = title;
-    this.studio = studio;
-    this.rating = rating;
+//     rating = 'PG'+rating;
+//     this.title = title;
+//     this.studio = studio;
+//     this.rating = rating;
 
   
-}
+// }
 
-getPG(movie){
-movie = this.title;
-movie.forEach(element => {
-    console.log(`${element} studio is ${this.studio} and rating is ${this.rating}` )
-});
+// getPG(movie){
+// movie = this.title;
+// movie.forEach(element => {
+//     switch (element){
+// case 'Anjaan':
+//     this.rating = 13;
+//     break;
+// case 'Billa':
+//     this.rating = 14;
+//     break;
+// case 'Johnwick':
+//     this.rating=100;
+//     break;
+//     default:
+//         console.log("Enter the valid movie name")
+//         break;
+//     }
+//     console.log(`${element} studio is ${this.studio} and rating is ${this.rating}` )
+// });
 
-}
+// }
 
 
-}
+// }
 
-var result = new Movie(['Anjaan','Billa','John wick'],"AGS Cinimas"," ");
+// var result = new Movie(['Anjaan','Billa','Johnwick'],"AGS Cinimas"," ");
 
-result.getPG()
+// result.getPG()
